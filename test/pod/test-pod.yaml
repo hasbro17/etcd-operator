@@ -7,7 +7,6 @@ spec:
   containers:
   - name: <POD_NAME>
     image: <TEST_IMAGE>
-    imagePullPolicy: Always
     command: ["hack/test"]
     env:
       - name: TEST_NAMESPACE
